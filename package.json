@@ -75,7 +75,7 @@
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
     "mock": "json-server --watch ./db.js",
-    "predeploy": "npm build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
